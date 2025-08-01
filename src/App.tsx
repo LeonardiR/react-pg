@@ -1,10 +1,10 @@
-import EmailInput from "./components/EmailInput"
+import SecurityCodeInput from "./components/SecurityCodeInput"
 
 function App() {
 
   return (
     <div className="w-5/12 m-auto p-8">
-     <EmailInput onChange={(value) => console.log(value)}></EmailInput>
+      <SecurityCodeInput></SecurityCodeInput>
     </div>
   )
 }
