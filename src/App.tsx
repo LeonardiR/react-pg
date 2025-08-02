@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div className="w-5/12 m-auto p-8">
-      <SecurityCodeInput></SecurityCodeInput>
+      <SecurityCodeInput digitsNumber={4} onSubmit={(digits) => console.log(digits)}></SecurityCodeInput>
     </div>
   )
 }
