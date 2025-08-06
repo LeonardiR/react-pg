@@ -7,7 +7,7 @@ type RatingSelectorProps = {
   };
 
 export default function RatingSelector({value, max, onChange}: RatingSelectorProps) {
-    const [rateValue, setRateVal] = useState<number>(value || 0);
+    const [rateValue, setRateVal] = useState<number>(value ?? 0);
     const [hoverRating, setHoverRating] = useState<number>(0);
     const rateCount : number = max ?? 5;
 
