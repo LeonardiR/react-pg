@@ -41,7 +41,7 @@ export default function SecurityCodeInput({digitsNumber = 3 ,onSubmit}: Props) {
   }
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center py-5">
       <label>Enter Code</label>
       <div className="flex gap-2 py-5">
         {digits.map((digit, i) => (
